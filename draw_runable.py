@@ -8,7 +8,7 @@ from matplotlib import pylab as plt
 def main(files):
     TOP_5_FLAG = True
     Training_Accuracy_FLAG = False
-    print(files)
+    # print(files)
     plt.style.use('ggplot')
     fig, ax1 = plt.subplots()
     ax2 = ax1.twinx()
@@ -23,7 +23,7 @@ def main(files):
     ax2.grid(b=True, which='minor', color='w', linestyle='--')
 
     for i, log_file in enumerate(files):
-        print(i)
+        # print(i)
         loss_iterations, losses,  loss_iterations_val, losses_val, accuracy_iterations_train, accuracies_train, accuracy_iterations, accuracies, accuracies_iteration_checkpoints_ind, accuracy_iterations_t5, accuracies_t5 = parse_log(log_file)
         disp_results(TOP_5_FLAG,Training_Accuracy_FLAG,fig, ax1, ax2, ax1,ax2,ax2, loss_iterations, losses,  loss_iterations_val, losses_val, \
                      accuracy_iterations_train, accuracies_train, accuracy_iterations, accuracies, accuracies_iteration_checkpoints_ind, accuracy_iterations_t5, accuracies_t5, color_ind=i)
@@ -64,9 +64,9 @@ def parse_log(log_file):
 
 
     #===VALIDATION LOSS
-    loss_pattern_val_1 = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.* \(\* 0.3 = (?P<loss_val>[+-]?(\d+\.\d*)([eE][+-]?\d+)?) loss\)"
-    loss_pattern_val_2 = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.*\n.*\n.*\n.* \(\* 0.3 = (?P<loss_val>[+-]?(\d+\.\d*)([eE][+-]?\d+)?) loss\)"
-    loss_pattern_val_3 = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.*\n.*\n.*\n.*\n.*\n.*\n.* \(\* 1 = (?P<loss_val>[+-]?(\d+\.\d*)([eE][+-]?\d+)?) loss\)"
+    loss_pattern_val_1 = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.*\n.* \(\* 0.3 = (?P<loss_val>[+-]?(\d+\.\d*)([eE][+-]?\d+)?) loss\)"
+    loss_pattern_val_2 = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.*\n.*\n.*\n.*\n.* \(\* 0.3 = (?P<loss_val>[+-]?(\d+\.\d*)([eE][+-]?\d+)?) loss\)"
+    loss_pattern_val_3 = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.* \(\* 1 = (?P<loss_val>[+-]?(\d+\.\d*)([eE][+-]?\d+)?) loss\)"
 
     loss_iterations_val = []
     losses_val = []
@@ -98,7 +98,7 @@ def parse_log(log_file):
 
 #===VALIDATION ACCURACY top-1
     #accuracy_pattern = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.* label/top-1 = (?P<accuracy>[+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?)"
-    accuracy_pattern = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.* loss3/top-1 = (?P<accuracy>[+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?)"
+    accuracy_pattern = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.* loss3/top-1 = (?P<accuracy>[+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?)"
     accuracies = []
     accuracy_iterations = []
     accuracies_iteration_checkpoints_ind = []
@@ -119,7 +119,7 @@ def parse_log(log_file):
 
 # ===VALIDATION ACCURACY top-5
     # accuracy_pattern = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.* label/top-1 = (?P<accuracy>[+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?)"
-    accuracy_pattern_t5 = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.* loss3/top-5 = (?P<accuracy>[+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?)"
+    accuracy_pattern_t5 = r"Iteration (?P<iter_num>\d+), Testing net \(#0\)\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.* loss3/top-5 = (?P<accuracy>[+-]?(\d+(\.\d*)?|\.\d+)([eE][+-]?\d+)?)"
     accuracies_t5 = []
     accuracy_iterations_t5 = []
     accuracies_iteration_checkpoints_ind = []

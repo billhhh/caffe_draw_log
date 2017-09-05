@@ -2,42 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="052e10e7-fe92-4de7-98ce-aa1ebcf81ae2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/wh_imgaug.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/imgaug_basic2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/820749407373755479_263362048.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/apple_80.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/apple_81.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/apple_82.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/apple_83.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/apple_84.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/apple_85.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/apple_86.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/apple_87.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/apple/apple_88.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/126373488579426538_12899973.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/153771722701524401_6812034.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/174551453_902705.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/219035782966244844_2179956.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/226526854668180314_756365.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/228499403873075775_73983.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/228578955056387514_6059356.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/231024932_1775927.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/231351337845457159_6991471.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/banana/320131861_1189047.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/beef_ball_kway_teow_soup115.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/125815986_1213438.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/138273488_1447873.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/211113881158746948_3711983.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/225678526755219131_14277920.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/230644523047623969_47342.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/239447620389739537_47342.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/244047325320445439_49696790.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/245918095265991083_44272785.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/247431304065698342_2327417.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/newFood_724_clean/cherries/29862263_2110335.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/caffe_draw_result.iml" afterPath="$PROJECT_DIR$/.idea/caffe_draw_result.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/draw_runable.py" afterPath="$PROJECT_DIR$/draw_runable.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,8 +14,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/caffe_draw_result$draw_runable.coverage" NAME="draw_runable Coverage Results" MODIFIED="1504597558368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="draw_runable.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/draw_runable.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="105" column="47" lean-forward="true" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/draw_runable.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -78,7 +72,17 @@
     <panes>
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="caffe_draw_result" type="b2602c69:ProjectViewProjectNode" />
+              <item name="caffe_draw_result" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,6 +101,31 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.draw_runable">
+    <configuration name="draw_runable" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="caffe_draw_result" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/draw_runable.py" />
+      <option name="PARAMETERS" value="finetune_googlenet_newFood724_2017-09-01_14-00-21.log" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.draw_runable" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -112,17 +141,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16510417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21776815" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30877572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -134,11 +164,34 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/finetune_googlenet_newFood724_2017-09-01_14-00-21.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="6890" column="77" lean-forward="true" selection-start-line="6890" selection-start-column="77" selection-end-line="6890" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draw_runable.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="105" column="47" lean-forward="true" selection-start-line="105" selection-start-column="47" selection-end-line="105" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
